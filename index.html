@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Technical Documentation</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+  </head>
+  <body>
+    <main id="main-doc">
+      <section class="main-section" id="Introduction">
+        <header><h1>Introduction</h1></header>
+        <p>At the core of programming lie essential concepts that empower developers to build dynamic and functional software.<br>Variables act as data containers, storing a range of information that can be manipulated as needed. Declaring variables involves specifying their names and data types, allowing the computer to allocate memory appropriately. Conditionals introduce decision-making, enabling code to respond intelligently to varying scenarios based on true or false conditions. Loops, on the other hand, enable the repetitive execution of code blocks, streamlining tasks like iterating through lists or performing calculations. <br>These concepts together form the building blocks of programming, enabling the creation of adaptable, interactive, and efficient applications.</p>
+      </section><main id="main-section">
+      <section class="main-section" id="What_you_should_already_know">
+        <header><h1>What you should already know</h1></header>
+        <p>This guide assumes you have the following basic background:</p>
+        <ul>
+          <li>Moderate experience in the use of computers.</li>
+          <li>Some or minimum experience in programming.</li>
+          <li>General understanding on the differences of coding languages.</li>
+        </ul>
+      </section>
+      <section class="main-section" id="Variables">
+        <header><h1>Variables</h1></header>
+        <p>Variables are used to store and manage data in a computer's memory. They act as placeholders or containers for values that can be manipulated, accessed, and updated during the program's execution.</p>
+        <p>Think of a variable as a named storage location that can hold different types of data, such as numbers, text, or complex structures. By using variables, programmers can create dynamic, adaptable, and interactive code.</p>
+      </section>
+      <section class="main-section" id="Declaring_variables">
+        <header><h1>Declaring variables</h1></header>
+        <p>Variables are declared with a name and a data type to specify the kind of value they will hold. They can also be initialized with an initial value. For example:</p>
+        <div class="code">
+          <p><code>
+  int age = 25  // an integer variable<br>
+  String name = "John"  // a string variable<br>
+  float pi = 3.14  // a floating-point variable<br>
+  boolean is_student = True  // a boolean variable<br>
+  </code></p>
+        </div>
+        <p>Variables can be assigned new values after their declaration. For example:</p>
+        <div class="code">
+          <p><code>age = 30  // assigning a new value to the 'age' variable</code></p>
+        </div>
+      </section>
+      <section class="main-section" id="Conditionals">
+        <header><h1>Conditionals</h1></header>
+        <p>Conditionals are used to introduce decision-making into code. They allow the program to execute different sets of instructions based on whether certain conditions are met. In programming, conditions are typically expressed as Boolean expressions, which evaluate to either true or false. Conditional statements, like "if," "else if," and "else" in languages such as Python or C, enable programmers to control the flow of their code and make it respond intelligently to different scenarios. For example: (code in Python)</p>
+        <div class="code">
+          <p><code>age = 18
+  if age >= 18:<br>
+  &emsp;    print("You are an adult.")<br>
+  else:<br>
+  &emsp;    print("You are not an adult.")
+  </code></p>
+        </div>
+      </section>
+      <section class="main-section" id="Loops">
+        <header><h1>Loops</h1></header>
+        <p>Loops are constructs that allow a section of code to be executed repeatedly. They are used when you need to perform a certain action multiple times, like iterating through a list of items or performing calculations.<br>There are two main types of loops: "for" loops and "while" loops.
+        <ul>
+          <li>"<i>for</i>" loops are used when you know how many times you want to iterate</li>
+          <li>"<i>while</i>" loops are used when you want to keep iterating as long as a specific condition is true.</li>
+        </ul>
+        For example:  </p>
+        <h4><i>for (Python)</i></h4>
+        <div class="code">
+          <p><code>for i in range(5):<br>
+    &emsp;  print(i)</code></p>
+    <h4><i>while (Java)</i></h4>
+          <p><code>int count = 0;<br>
+  while (count < 5) {<br>
+      System.out.println(count);<br>
+    &emsp; count++;<br>
+  }</code></p>
+        </div>
+      </section>
+    </main>
+    <nav id="navbar">
+      <header><h1>Basic Concepts Of Coding</h1></header>
+      <ul>
+        <li><a class="nav-link" href="#Introduction">Introduction</a></li>
+        <li><a class="nav-link" href="#What_you_should_already_know">What you should already know</a></li>
+        <li><a class="nav-link" href="#Variables">Variables</a></li>
+        <li><a class="nav-link" href="#Declaring_variables">Declaring variables</a></li>
+        <li><a class="nav-link" href="#Conditionals">Conditionals</a></li>
+        <li><a class="nav-link" href="#Loops">Loops</a></li>
+      </ul>
+    </nav>
+  </body>
+</html>

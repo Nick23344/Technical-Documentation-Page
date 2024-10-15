@@ -1,0 +1,56 @@
+body {
+    font-size: 18px;
+    line-height: 1.5em;
+  }
+  
+  
+  #main-doc {
+    position: absolute;
+    margin-left: 310px;
+    padding: 15px;
+    margin-bottom: 110px;
+  }
+  
+  #navbar {
+    position: fixed;
+    width: 300px;
+    padding: 5px;
+    top: 0px;
+    left: 0px;
+    border: solid 5px;
+    height: fit-content;
+  }
+  
+  section {
+    position: absoulute;
+    left: 0px;
+  }
+  
+  #navbar a {
+    display: block;
+    color: black;
+    padding: 15px;
+  }
+  
+  #navbar ul {
+    padding: 0;
+  }
+  
+  #navbar li {
+    list-style: none;
+    width: 100%;
+  }
+  
+  div {
+    background-color: black;
+    color: green;
+    width: fit-content;
+    padding: 5px;
+  }
+  
+  @media (max-width: 815px) {
+    #navbar{
+      border: 3px solid;
+      height: fit-content;
+    }
+  }
